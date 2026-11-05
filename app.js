@@ -149,15 +149,19 @@ const chapters = [
 ];
 
 const resources = [
-  { title: "Fiche de mise en service NF C 15-100", detail: "Liste de vérifications, mesures et essais fonctionnels.", href: "Contexte/Fiche%20mise%20en%20service%20NFC15-100.odt", type: "Document ODT" },
-  { title: "Notice technique du malaxeur Habilis", detail: "Dossier technique et informations sur le coffret étudié.", href: "https://sti.eduscol.education.fr/sites/eduscol.education.fr.sti/files/ressources/pedagogiques/516/516-notice-technique-malaxeur-habilis.pdf", type: "PDF · Éduscol" },
-  { title: "Contrôleur d’installation Chauvin Arnoux CA 6116", detail: "Manuel utilisateur de l’appareil de mesure.", href: "Contexte/CA6116.pdf", type: "Manuel PDF" },
-  { title: "Contrôleur d’installation Fluke 1653", detail: "Manuel utilisateur du testeur d’installation.", href: "Contexte/fluke-1653bvde-tester-din-vde-0100-413-3277900-manuel-d-utilisation.pdf", type: "Manuel PDF" },
-  { title: "NF C 15-100-1 — Vérifications", detail: "Document de référence fourni dans le contexte du projet.", href: "Contexte/NFC15-100/NF%20C15-100-1.pdf", type: "Norme PDF" },
-  { title: "NF C 15-100 — Vérifications", detail: "Titre 6 — vérifications, essais et rapports.", href: "Contexte/Normes%20utiles%20SAE13/NF%20C15-100%20Titre%206%20-%20V%C3%A9rifications.pdf", type: "Norme PDF" },
-  { title: "EN 60204-1 — Vérifications", detail: "Vérifications de l’équipement électrique des machines.", href: "Contexte/Normes%20utiles%20SAE13/EN60204%20V%C3%A9rifications.pdf", type: "Document PDF" },
-  { title: "NF EN IEC 61557 — Appareils de contrôle", detail: "Exigences relatives aux dispositifs de mesure et de contrôle.", href: "Contexte/EN%2061557-Norme%20pour%20les%20dispositifs%20de%20contr%C3%B4le/EN%2061557-1.pdf", type: "Norme PDF" },
-  { title: "Guide de la mesure d’isolement", detail: "Repères pédagogiques sur le principe et l’interprétation des mesures.", href: "Contexte/guide-de-la-mesure-disolement(1).pdf", type: "Guide PDF" }
+  { title: "Fiche de mise en service NF C 15-100", detail: "Liste de vérifications, mesures et essais fonctionnels.", href: "ressources/Fiche%20mise%20en%20service%20NFC15-100.pdf", type: "Document PDF" },
+  { title: "Notice technique du malaxeur Habilis", detail: "Dossier technique et informations sur le coffret étudié.", href: "ressources/habilis.pdf", type: "Document PDF" },
+  { title: "Contrôleur d’installation Chauvin Arnoux CA 6116", detail: "Manuel utilisateur de l’appareil de mesure.", href: "ressources/CA6116.pdf", type: "Manuel PDF" },
+  { title: "Contrôleur d’installation Fluke 1653", detail: "Manuel utilisateur du testeur d’installation.", href: "ressources/fluke-1653bvde-tester-din-vde-0100-413-3277900-manuel-d-utilisation.pdf", type: "Manuel PDF" },
+  { title: "NF C 15-100-1 — Installations électriques à basse tension", detail: "Document de référence fourni avec le projet.", href: "ressources/NF%20C15-100-1.pdf", type: "Norme PDF" },
+  { title: "NF C 15-100-10", detail: "Document de la série NF C 15-100 fourni avec le projet.", href: "ressources/NF%20C15-100-10.pdf", type: "Norme PDF" },
+  { title: "FD C 15-105", detail: "Document de référence sur les installations électriques à basse tension.", href: "ressources/FD%20C15-105.pdf", type: "Document PDF" },
+  { title: "EN 61010-1 — Sécurité des appareils de mesure", detail: "Exigences générales de sécurité pour les appareils de mesure et de laboratoire.", href: "ressources/EN%2061010-1.pdf", type: "Norme PDF" },
+  { title: "NF EN IEC 61557-1 — Exigences générales", detail: "Exigences générales relatives aux appareils de contrôle des mesures de protection.", href: "ressources/EN%2061557-1.pdf", type: "Norme PDF" },
+  { title: "NF EN IEC 61557-2 — Résistance d’isolement", detail: "Exigences pour les appareils de mesure de la résistance d’isolement.", href: "ressources/EN%2061557-2.pdf", type: "Norme PDF" },
+  { title: "NF EN IEC 61557-4 — Résistance des conducteurs de terre", detail: "Exigences pour les appareils de mesure de la résistance des conducteurs de terre et de protection.", href: "ressources/EN%2061557-4.pdf", type: "Norme PDF" },
+  { title: "NF EN IEC 61557-7 — Ordre des phases", detail: "Exigences pour les appareils de contrôle de l’ordre des phases.", href: "ressources/EN%2061557-7.pdf", type: "Norme PDF" },
+  { title: "Guide de la mesure d’isolement", detail: "Repères pédagogiques sur le principe et l’interprétation des mesures.", href: "ressources/guide-de-la-mesure-disolement(1).pdf", type: "Guide PDF" }
 ];
 
 const symbols = [
