@@ -10,7 +10,11 @@ const chapters = [
       "Réaliser l’inspection dans les conditions de consignation prévues et comparer le montage aux schémas, repères et consignes disponibles.",
       "Examiner l’état du coffret, les protections contre les contacts, les connexions accessibles et l’identification des circuits.",
       "Vérifier le repérage et les couleurs des conducteurs selon les règles applicables.",
-      "Signaler les écarts et ne pas engager les essais suivants tant qu’un écart bloquant n’est pas levé."
+      "L'inspection visuelle comprend 3 phases:",
+      "1- La concordance de la couleur des fils avec leur fonction : BLEU CLAIR pour le Neutre, JAUNE/VERT pour le conducteur de Protection Équipotentielle (PE/Terre), NOIR pour la puissance, ROUGE pour la partie commande en alternatif et ORANGE pour les circuits secourus (cf EN 60204)",
+      "2- La concordance des repères des conducteurs (équipotentielles) avec le schéma de câblage du coffret.",
+      "3- La concordance des repères des appareils (disjoncteurs, contacteurs, interrupteurs différentiels) avec le schéma de câblage du coffret.",
+      "Signaler les écarts et ne pas engager les essais suivants tant qu’un écart bloquant n’est pas levé.",
     ],
     meter: "Aucun des contrôleurs Fluke 1653 ou Chauvin Arnoux CA 6116 ne remplace l’observation visuelle. Un vérificateur d’absence de tension adapté peut être requis par la procédure de consignation; il ne s’agit pas d’une permission d’intervention.",
     principle: "Documents → coffret → anomalies",
