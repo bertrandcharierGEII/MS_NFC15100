@@ -20,7 +20,6 @@ const chapters = [
     principle: "Documents → coffret → anomalies",
     diagram: ["Documents", "Inspection", "Écarts tracés"],
     example: "Sur Habilis, comparer les repères des appareils et des conducteurs au schéma disponible. Vérifier en particulier le PE vert/jaune, le neutre bleu clair, et le repérage préconisé des circuits : noir pour la puissance AC, rouge pour la commande AC, bleu pour la commande DC.",
-    youtubeId: "LrwdC-PM69U",
     report: ["Élément / repère", "État constaté", "Écart / action"],
     quiz: [
       { question: "À quoi comparer le câblage et les repères ?", options: ["Aux schémas et consignes du coffret", "À un coffret choisi au hasard", "À la couleur de la porte"], answer: 0, remedy: "Les documents propres à l’installation sont la référence pour vérifier la cohérence du montage." },
@@ -45,6 +44,7 @@ const chapters = [
     principle: "Contrôleur ≥ 200 mA → PE → masse",
     diagram: ["Contrôleur", "Liaison PE", "Point contrôlé"],
     example: "Pour chaque point de masse du coffret Habilis, relever le repère et la résistance mesurée. En régime TT, le seuil fourni est 2 Ω. En régime TN, le seuil dépend du disjoncteur de tête : pour Habilis (80 A), la valeur indiquée est 0,14 Ω. Le critère doit être confirmé dans le dossier et la méthode de vérification du coffret.",
+    youtubeId: "LrwdC-PM69U",
     markers: [["≥ 200 mA", "Courant d’essai"], ["2 Ω", "Seuil TT"], ["0,14 Ω", "TN · Habilis 80 A"]],
     report: ["Point PE / repère", "Résistance mesurée", "Critère / résultat"],
     quiz: [
