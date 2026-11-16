@@ -49,7 +49,7 @@ const chapters = [
     report: ["Point PE / repère", "Résistance mesurée", "Critère / résultat"],
     quiz: [
       { question: "Quel courant d’essai minimal est demandé pour le contrôle de continuité ?", options: ["10 mA", "200 mA", "2 A"], answer: 1, remedy: "La mesure doit être réalisée avec un contrôleur d’installation injectant au moins 200 mA." },
-      { question: "Quel seuil est indiqué pour Habilis en régime TN avec un disjoncteur de tête de 80 A ?", options: ["2 Ω", "0,14 Ω", "100 Ω"], answer: 1, remedy: "Pour le cas Habilis indiqué, le seuil TN est 0,14 Ω. En TN, la valeur dépend du calibre de la protection de tête." },
+      { question: "Quel seuil est indiqué pour Habilis en régime TN ?", options: ["2 Ω", "0,14 Ω", "100 Ω"], answer: 0, remedy: "Pour le cas Habilis indiqué, le seuil TN est 0,14 Ω. En TN, la valeur dépend du calibre de la protection de tête." },
       { question: "Quel seuil est donné pour le régime TT ?", options: ["2 Ω", "0,14 Ω", "0,5 MΩ"], answer: 0, remedy: "Le repère fourni pour le régime TT est 2 Ω. Il faut toujours tracer le régime et le critère retenu." }
     ]
   },
@@ -58,11 +58,11 @@ const chapters = [
     number: "03",
     icon: "⟷",
     title: "Contrôle d’isolement",
-    short: "Mesurer l’isolement vers la terre",
+    short: "Mesurer l’isolement avec la terre",
     intro: "Le contrôle recherche une dégradation de l’isolement entre les conducteurs actifs et la terre (PE). Il se prépare en identifiant les circuits et les équipements sensibles à la tension d’essai.",
     standard: [
       "Contrôler l’isolement entre chaque conducteur actif (phases et neutre) et le conducteur de protection PE.",
-      "Réaliser l’essai hors tension avec une tension d’essai de 500 V continu.",
+      "Réaliser l’essai hors tension avec une tension d’essai de 500 V continu (dépend de la tension du circuit, ici 400 V).",
       "La résistance mesurée doit être supérieure à 0,5 MΩ.",
       "Préparer les récepteurs et protéger ou déconnecter les composants électroniques conformément à leurs notices."
     ],
