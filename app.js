@@ -43,7 +43,7 @@ const chapters = [
     meter: "Les Fluke 1653 et Chauvin Arnoux CA 6116 disposent de fonctions de mesure de continuité basse résistance. Vérifier dans la notice du modèle la fonction exacte, les cordons, la compensation des cordons et les conditions d’essai. La méthode de référence des appareils est traitée par NF EN IEC 61557-4.",
     principle: "Contrôleur ≥ 200 mA → PE → masse",
     diagram: ["Contrôleur", "Liaison PE", "Point contrôlé"],
-    example: "Pour chaque point de masse du coffret Habilis, relever le repère et la résistance mesurée. En régime TT, le seuil fourni est 2 Ω. En régime TN, le seuil dépend du disjoncteur de tête : pour Habilis (80 A), la valeur indiquée est 0,14 Ω. Le critère doit être confirmé dans le dossier et la méthode de vérification du coffret.",
+    example: "Pour chaque point de masse du coffret Habilis, relever le repère et la résistance mesurée. En régime TT, le seuil fourni est 2 Ω (Residentia). En régime TN (IUT GEII), le seuil dépend de l'installation et des notes de calcul si on en dispose ; sinon on prend également le seuil de 2 Ω.",
     youtubeId: "LrwdC-PM69U",
     markers: [["≥ 200 mA", "Courant d’essai"], ["2 Ω", "Seuil TT"], ["2 Ω", "TN · (IUT GEII)"]],
     report: ["Point PE / repère", "Résistance mesurée", "Critère / résultat"],
