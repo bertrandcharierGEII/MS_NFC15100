@@ -45,7 +45,7 @@ const chapters = [
     diagram: ["Contrôleur", "Liaison PE", "Point contrôlé"],
     example: "Pour chaque point de masse du coffret Habilis, relever le repère et la résistance mesurée. En régime TT, le seuil fourni est 2 Ω. En régime TN, le seuil dépend du disjoncteur de tête : pour Habilis (80 A), la valeur indiquée est 0,14 Ω. Le critère doit être confirmé dans le dossier et la méthode de vérification du coffret.",
     youtubeId: "LrwdC-PM69U",
-    markers: [["≥ 200 mA", "Courant d’essai"], ["2 Ω", "Seuil TT"], ["0,14 Ω", "TN · Habilis 80 A"]],
+    markers: [["≥ 200 mA", "Courant d’essai"], ["2 Ω", "Seuil TT"], ["2 Ω", "TN · (IUT GEII)"]],
     report: ["Point PE / repère", "Résistance mesurée", "Critère / résultat"],
     quiz: [
       { question: "Quel courant d’essai minimal est demandé pour le contrôle de continuité ?", options: ["10 mA", "200 mA", "2 A"], answer: 1, remedy: "La mesure doit être réalisée avec un contrôleur d’installation injectant au moins 200 mA." },
